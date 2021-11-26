@@ -6,8 +6,4 @@ conda create -n  BI_App
 conda activate BI_App
 
 ```
-
-hello world
-
-
-sdjiflrkgj
+hello ninad
