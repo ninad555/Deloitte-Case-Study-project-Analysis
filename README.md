@@ -1,2 +1,8 @@
-# Deloitte-Case-Study-project-Analysis
-A web analytics Dashboards using Flask .
+```bash
+conda create -n  BI_App
+```
+
+```bash
+conda activate BI_App
+
+```
