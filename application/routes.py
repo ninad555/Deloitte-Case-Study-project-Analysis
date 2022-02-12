@@ -38,7 +38,7 @@ Exg = etl.get_excel(path, "Exchange Rate", all_filenames)
 Exp = etl.get_excel(path, "Export Merchandise", all_filenames)
 logger.info('All the data are fetched from Database in .csv and saved as .xlsx !')
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET', "POST"])
 def index():
     """
        Name : index function
@@ -55,7 +55,7 @@ def index():
     logger.info("[Process 2 : Index page loaded sucessfully!]")
     return render_template("index.html")
 
-@app.route('/about1', methods=['GET'])
+@app.route('/about1', methods=['GET', "POST"])
 def about1():
     """
        Name : about1 function
