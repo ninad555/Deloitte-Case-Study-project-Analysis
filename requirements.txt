@@ -44,12 +44,6 @@ pickleshare==0.7.5
 plotly==5.5.0
 prometheus-client==0.12.0
 prompt-toolkit==3.0.24
-pycparser==2.21
-Pygments==2.10.0
-pyparsing==3.0.6
-pywin32==303
-pywinpty==1.1.6
-pyzmq==22.3.0
 Send2Trash==1.8.0
 six==1.16.0
 tenacity==8.0.1
