@@ -1,0 +1,14 @@
+"Deloitte Case Study project Analysis"
+=====================
+
+.. toctree::
+   :maxdepth: 4
+
+   Dashboard
+   Data
+   DataPreProcessing
+   app
+   application
+   conf
+   test
+   util

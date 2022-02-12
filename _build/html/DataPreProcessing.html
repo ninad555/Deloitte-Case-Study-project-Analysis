@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataPreProcessing package &mdash; Deloitte Case Study project Analysis 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Deloitte Case Study project Analysis
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">DataPreProcessing package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-DataPreProcessing.DataPreprocessing">DataPreProcessing.DataPreprocessing module</a></li>
+<li><a class="reference internal" href="#module-DataPreProcessing">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BI</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>DataPreProcessing package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/DataPreProcessing.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="datapreprocessing-package">
+<h1>DataPreProcessing package<a class="headerlink" href="#datapreprocessing-package" title="Permalink to this headline"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
+</section>
+<section id="module-DataPreProcessing.DataPreprocessing">
+<span id="datapreprocessing-datapreprocessing-module"></span><h2>DataPreProcessing.DataPreprocessing module<a class="headerlink" href="#module-DataPreProcessing.DataPreprocessing" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">DataPreProcessing.DataPreprocessing.</span></span><span class="sig-name descname"><span class="pre">data_preprocessing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">year</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Name : data_preprocessing Class
+Module : DataPreprocessing
+Description : This class is to preprocess the data from database,
+i.e cleaning, preprocessing and analyzing data, these steps takes place
+in this class. This analyzed data can be used further for Visualisation</p>
+<p>Written By : Abhishek Mestry, Ninad Kadam, Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.CAGR_preprocessing">
+<span class="sig-name descname"><span class="pre">CAGR_preprocessing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.CAGR_preprocessing" title="Permalink to this definition"></a></dt>
+<dd><p>Name : CAGR_preprocessing function
+Module : DataPreprocessing
+Description : This function does the CAGR analysis of the data.
+Parameters: None
+Returns : A new dataframe of CAGR analysis.
+Written By : Abhishek Mestry ,Ninad Kadam ,Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.Yoy_preprocessing">
+<span class="sig-name descname"><span class="pre">Yoy_preprocessing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.Yoy_preprocessing" title="Permalink to this definition"></a></dt>
+<dd><p>Name : Yoy_preprocessing function
+Module : DataPreprocessing
+Description : This function does the Year to Year analysis of the data.
+Parameters: None
+Returns : A new dataframe of YOY analysis.
+Written By : Abhishek Mestry ,Ninad Kadam ,Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.drop_vacant_row">
+<span class="sig-name descname"><span class="pre">drop_vacant_row</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.drop_vacant_row" title="Permalink to this definition"></a></dt>
+<dd><p>Name : drop_vacant_row function
+Module : DataPreprocessing
+Description : This function drops the first vacant row (if present) from the data.
+Parameters: None
+Returns : Dataframe with no vacant rows .
+Written By : Abhishek Mestry, Ninad Kadam, Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.extract_title">
+<span class="sig-name descname"><span class="pre">extract_title</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.extract_title" title="Permalink to this definition"></a></dt>
+<dd><p>Name : extract_title function
+Module : DataPreprocessing
+Description : This function alot the title to the chart according to the data.
+Parameters: None
+Returns : Title in string format
+Written By : Abhishek Mestry, Ninad Kadam, Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.fill_na_with_zero">
+<span class="sig-name descname"><span class="pre">fill_na_with_zero</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.fill_na_with_zero" title="Permalink to this definition"></a></dt>
+<dd><p>Name : fill_na_with_zero function
+Module : DataPreprocessing
+Description : This function fills the null values with zero in the data.
+Parameters: None
+Returns : Dataframe with zero null values.
+Written By : Abhishek Mestry, Ninad Kadam, Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.monthly_preprocessing">
+<span class="sig-name descname"><span class="pre">monthly_preprocessing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.monthly_preprocessing" title="Permalink to this definition"></a></dt>
+<dd><p>Name : monthly_preprocessing function
+Module : DataPreprocessing
+Description : This function does the preprocessing for monthly data.
+Parameters: None
+Returns : A new dataframe of preprocessed monthly data.
+Written By : Abhishek Mestry ,Ninad Kadam ,Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="DataPreProcessing.DataPreprocessing.data_preprocessing.set_datetime_index">
+<span class="sig-name descname"><span class="pre">set_datetime_index</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#DataPreProcessing.DataPreprocessing.data_preprocessing.set_datetime_index" title="Permalink to this definition"></a></dt>
+<dd><p>Name : set_datetime_index function
+Module : DataPreprocessing
+Description : This function sets the “period” column to index and converting its datatype to datetime format.
+Parameters: None
+Returns : Dataframe with years as index.
+Written By : Abhishek Mestry ,Ninad Kadam ,Viresh Dhuri
+Version : 1.0.0
+Revision : None</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-DataPreProcessing">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-DataPreProcessing" title="Permalink to this headline"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
