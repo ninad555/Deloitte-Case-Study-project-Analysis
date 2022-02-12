@@ -1,0 +1,61 @@
+#carouselExampleIndicators{
+margin:2%;
+}
+
+.navbar-text{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+}
+
+.navbar-brand{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0%;
+}
+
+
+.text{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+    color: rgb(150, 15, 5);
+    text-align: center;
+
+}
+
+#multiselect1{
+    margin-top:0;
+    justify-content : center;
+    align-items: center;
+}
+
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button1 {background-color: #4CAF50;} /* Green */
+
+
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.blue{
+    background-color:rgb(184, 185, 187);
+    font-family: 'Times New Roman', Times, serif;
+}
