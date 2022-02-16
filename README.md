@@ -1,7 +1,7 @@
 
 # 📔 Deloitte Case Study project Analysis 
 ## Ineuron internship project
-project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar. 
+project Members: [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](https://github.com/AbhishekMestry), [@Viresh Dhuri](https://github.com/Virey07), [@Omkar Sutar](https://github.com/omkarsutar9702)
 
 
 
@@ -42,6 +42,4 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 ## Authors
 
-- [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](https://github.com/AbhishekMestry)
-- [@Viresh Dhuri](https://github.com/Virey07)
-- [@Omkar Sutar](https://github.com/omkarsutar9702)
+- [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](https://github.com/AbhishekMestry), [@Viresh Dhuri](https://github.com/Virey07), [@Omkar Sutar](https://github.com/omkarsutar9702)
