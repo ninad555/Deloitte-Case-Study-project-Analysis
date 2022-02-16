@@ -1,0 +1,282 @@
+2022-02-12 15:31:37,971 - routes - INFO - ETL API Hit
+2022-02-12 15:31:37,972 - routes - INFO - Starting to Import Data
+2022-02-12 15:31:38,269 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:31:41,437 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:31:44,830 - routes - INFO - ETL API Hit
+2022-02-12 15:31:44,831 - routes - INFO - Starting to Import Data
+2022-02-12 15:31:45,128 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:31:48,157 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:31:51,794 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 15:32:20,208 - routes - INFO - Post request fetch for year2000
+2022-02-12 15:32:25,450 - routes - INFO - Post request executed & Export Merchandise.html loaded Successfully.
+2022-02-12 15:33:25,475 - routes - INFO - [Process 5 : Exchange_Rate.html loaded sucessfully!]
+2022-02-12 15:35:07,906 - routes - INFO - Post request fetch for year2001
+2022-02-12 15:35:51,955 - routes - INFO - [Process 5 : Exchange_Rate.html loaded sucessfully!]
+2022-02-12 15:36:18,243 - routes - INFO - [Process 6 : CPI.html page loaded sucessfully!]
+2022-02-12 15:36:50,201 - routes - INFO - ETL API Hit
+2022-02-12 15:36:50,202 - routes - INFO - Starting to Import Data
+2022-02-12 15:36:50,487 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:36:53,613 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:37:54,994 - routes - INFO - ETL API Hit
+2022-02-12 15:37:54,994 - routes - INFO - Starting to Import Data
+2022-02-12 15:37:55,296 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:37:58,553 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:38:02,497 - routes - INFO - [Process 6 : CPI.html page loaded sucessfully!]
+2022-02-12 15:38:06,940 - routes - INFO - ETL API Hit
+2022-02-12 15:38:06,941 - routes - INFO - Starting to Import Data
+2022-02-12 15:38:07,248 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:38:10,379 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:38:37,803 - routes - INFO - ETL API Hit
+2022-02-12 15:38:37,804 - routes - INFO - Starting to Import Data
+2022-02-12 15:38:38,108 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:38:41,812 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:38:46,944 - routes - INFO - ETL API Hit
+2022-02-12 15:38:46,945 - routes - INFO - Starting to Import Data
+2022-02-12 15:38:47,269 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:38:50,704 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:39:00,765 - routes - INFO - ETL API Hit
+2022-02-12 15:39:00,766 - routes - INFO - Starting to Import Data
+2022-02-12 15:39:01,058 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:39:04,284 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:40:07,210 - routes - INFO - ETL API Hit
+2022-02-12 15:40:07,211 - routes - INFO - Starting to Import Data
+2022-02-12 15:40:07,535 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:40:10,765 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:41:38,811 - routes - INFO - ETL API Hit
+2022-02-12 15:41:38,812 - routes - INFO - Starting to Import Data
+2022-02-12 15:41:39,130 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:41:42,275 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:42:57,996 - routes - INFO - ETL API Hit
+2022-02-12 15:42:57,998 - routes - INFO - Starting to Import Data
+2022-02-12 15:42:58,296 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:43:01,412 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:44:55,063 - routes - INFO - ETL API Hit
+2022-02-12 15:44:55,064 - routes - INFO - Starting to Import Data
+2022-02-12 15:44:55,375 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:44:58,756 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:45:12,049 - routes - INFO - ETL API Hit
+2022-02-12 15:45:12,050 - routes - INFO - Starting to Import Data
+2022-02-12 15:45:12,352 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:45:15,472 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:45:18,862 - routes - INFO - ETL API Hit
+2022-02-12 15:45:18,862 - routes - INFO - Starting to Import Data
+2022-02-12 15:45:19,138 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:45:22,291 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:46:06,510 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 15:46:45,709 - routes - INFO - ETL API Hit
+2022-02-12 15:46:45,710 - routes - INFO - Starting to Import Data
+2022-02-12 15:46:46,070 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:46:49,380 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 15:47:24,230 - routes - INFO - [Process 6 : CPI.html page loaded sucessfully!]
+2022-02-12 15:47:29,545 - routes - INFO - ETL API Hit
+2022-02-12 15:47:29,546 - routes - INFO - Starting to Import Data
+2022-02-12 15:47:29,944 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 15:47:33,288 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:00:45,280 - routes - INFO - ETL API Hit
+2022-02-12 16:00:45,281 - routes - INFO - Starting to Import Data
+2022-02-12 16:00:45,664 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:00:49,737 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:01:13,697 - routes - INFO - ETL API Hit
+2022-02-12 16:01:13,698 - routes - INFO - Starting to Import Data
+2022-02-12 16:01:14,043 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:01:17,222 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:01:52,187 - routes - INFO - [Process 6 : CPI.html page loaded sucessfully!]
+2022-02-12 16:02:55,093 - routes - INFO - [Process 5 : Exchange_Rate.html loaded sucessfully!]
+2022-02-12 16:03:23,017 - routes - INFO - ETL API Hit
+2022-02-12 16:03:23,018 - routes - INFO - Starting to Import Data
+2022-02-12 16:03:23,354 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:03:26,434 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:36:51,186 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:37:33,545 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:37:47,514 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:38:29,449 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:38:39,847 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:38:42,246 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:38:45,740 - routes - INFO - [Process 3 : About us page sucessfully!]
+2022-02-12 16:39:00,911 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:39:39,952 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:39:50,933 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:42:10,292 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:44:10,090 - routes - INFO - ETL API Hit
+2022-02-12 16:44:10,091 - routes - INFO - Starting to Import Data
+2022-02-12 16:44:10,439 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:44:13,713 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:44:17,110 - routes - INFO - ETL API Hit
+2022-02-12 16:44:17,111 - routes - INFO - Starting to Import Data
+2022-02-12 16:44:17,408 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:44:20,670 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:46:19,098 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:46:24,952 - routes - INFO - ETL API Hit
+2022-02-12 16:46:24,953 - routes - INFO - Starting to Import Data
+2022-02-12 16:46:25,363 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:46:29,145 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:49:16,148 - routes - INFO - ETL API Hit
+2022-02-12 16:49:16,149 - routes - INFO - Starting to Import Data
+2022-02-12 16:49:16,445 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:49:19,714 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:49:23,146 - routes - INFO - ETL API Hit
+2022-02-12 16:49:23,147 - routes - INFO - Starting to Import Data
+2022-02-12 16:49:23,456 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 16:49:26,963 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 16:49:28,889 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:50:25,028 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:51:17,616 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:51:47,443 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:51:48,924 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:52:44,753 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:52:46,359 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 16:52:57,960 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 17:05:51,159 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 17:09:26,655 - routes - INFO - ETL API Hit
+2022-02-12 17:09:26,656 - routes - INFO - Starting to Import Data
+2022-02-12 17:09:26,955 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 17:09:30,289 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 17:09:33,692 - routes - INFO - ETL API Hit
+2022-02-12 17:09:33,694 - routes - INFO - Starting to Import Data
+2022-02-12 17:09:34,007 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 17:09:37,236 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 17:12:26,215 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 19:47:24,092 - routes - INFO - ETL API Hit
+2022-02-12 19:47:24,099 - routes - INFO - Starting to Import Data
+2022-02-12 19:47:24,608 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:48:48,864 - routes - INFO - ETL API Hit
+2022-02-12 19:48:48,865 - routes - INFO - Starting to Import Data
+2022-02-12 19:48:49,288 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:48:53,451 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:48:57,901 - routes - INFO - ETL API Hit
+2022-02-12 19:48:57,902 - routes - INFO - Starting to Import Data
+2022-02-12 19:48:58,327 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:49:02,368 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:49:20,829 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 19:49:26,702 - routes - INFO - ETL API Hit
+2022-02-12 19:49:26,703 - routes - INFO - Starting to Import Data
+2022-02-12 19:49:27,129 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:49:30,754 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:49:40,099 - routes - INFO - ETL API Hit
+2022-02-12 19:49:40,100 - routes - INFO - Starting to Import Data
+2022-02-12 19:49:40,549 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:49:44,907 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:49:50,969 - routes - INFO - ETL API Hit
+2022-02-12 19:49:50,970 - routes - INFO - Starting to Import Data
+2022-02-12 19:49:51,383 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:49:55,264 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:50:09,976 - routes - INFO - ETL API Hit
+2022-02-12 19:50:09,977 - routes - INFO - Starting to Import Data
+2022-02-12 19:50:10,371 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:50:14,210 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:50:37,187 - routes - INFO - ETL API Hit
+2022-02-12 19:50:37,189 - routes - INFO - Starting to Import Data
+2022-02-12 19:50:37,622 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:50:43,469 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:51:05,562 - routes - INFO - ETL API Hit
+2022-02-12 19:51:05,563 - routes - INFO - Starting to Import Data
+2022-02-12 19:51:05,970 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:51:10,083 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:51:30,408 - routes - INFO - ETL API Hit
+2022-02-12 19:51:30,409 - routes - INFO - Starting to Import Data
+2022-02-12 19:51:30,932 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:51:35,243 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:51:56,311 - routes - INFO - ETL API Hit
+2022-02-12 19:51:56,314 - routes - INFO - Starting to Import Data
+2022-02-12 19:51:56,833 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:52:05,888 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:52:28,003 - routes - INFO - ETL API Hit
+2022-02-12 19:52:28,004 - routes - INFO - Starting to Import Data
+2022-02-12 19:52:28,443 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:52:34,134 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:52:58,201 - routes - INFO - ETL API Hit
+2022-02-12 19:52:58,202 - routes - INFO - Starting to Import Data
+2022-02-12 19:52:58,654 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:53:05,101 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:54:11,285 - routes - INFO - ETL API Hit
+2022-02-12 19:54:11,286 - routes - INFO - Starting to Import Data
+2022-02-12 19:54:11,977 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:54:19,843 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:55:20,788 - routes - INFO - ETL API Hit
+2022-02-12 19:55:20,789 - routes - INFO - Starting to Import Data
+2022-02-12 19:55:21,195 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:55:25,178 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:55:29,449 - routes - INFO - ETL API Hit
+2022-02-12 19:55:29,450 - routes - INFO - Starting to Import Data
+2022-02-12 19:55:29,888 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:55:34,298 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:55:36,369 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 19:55:56,061 - routes - INFO - ETL API Hit
+2022-02-12 19:55:56,062 - routes - INFO - Starting to Import Data
+2022-02-12 19:55:56,651 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:56:01,249 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:56:59,432 - routes - INFO - ETL API Hit
+2022-02-12 19:56:59,509 - routes - INFO - Starting to Import Data
+2022-02-12 19:57:00,292 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:57:10,156 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:58:07,967 - routes - INFO - ETL API Hit
+2022-02-12 19:58:07,968 - routes - INFO - Starting to Import Data
+2022-02-12 19:58:08,371 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:58:12,676 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 19:59:35,098 - routes - INFO - ETL API Hit
+2022-02-12 19:59:35,099 - routes - INFO - Starting to Import Data
+2022-02-12 19:59:35,531 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 19:59:42,076 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:00:04,715 - routes - INFO - ETL API Hit
+2022-02-12 20:00:04,719 - routes - INFO - Starting to Import Data
+2022-02-12 20:01:02,141 - routes - INFO - ETL API Hit
+2022-02-12 20:01:02,144 - routes - INFO - Starting to Import Data
+2022-02-12 20:01:02,579 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:01:07,063 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:01:11,630 - routes - INFO - ETL API Hit
+2022-02-12 20:01:11,631 - routes - INFO - Starting to Import Data
+2022-02-12 20:01:12,057 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:01:16,336 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:01:18,296 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 20:02:12,591 - routes - INFO - ETL API Hit
+2022-02-12 20:02:12,592 - routes - INFO - Starting to Import Data
+2022-02-12 20:02:13,207 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:02:22,743 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:05:13,732 - routes - INFO - ETL API Hit
+2022-02-12 20:05:13,733 - routes - INFO - Starting to Import Data
+2022-02-12 20:05:14,141 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:05:19,045 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:10:17,494 - routes - INFO - ETL API Hit
+2022-02-12 20:10:17,496 - routes - INFO - Starting to Import Data
+2022-02-12 20:10:17,943 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:10:23,571 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:12:32,312 - routes - INFO - [Process 5 : Exchange_Rate.html loaded sucessfully!]
+2022-02-12 20:17:35,865 - routes - INFO - ETL API Hit
+2022-02-12 20:17:35,866 - routes - INFO - Starting to Import Data
+2022-02-12 20:17:36,587 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:17:40,784 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:18:05,973 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
+2022-02-12 20:19:31,592 - routes - INFO - [Process 5 : Exchange_Rate.html loaded sucessfully!]
+2022-02-12 20:22:12,197 - routes - INFO - Post request fetch for year2004
+2022-02-12 20:22:18,798 - routes - INFO - ETL API Hit
+2022-02-12 20:22:18,799 - routes - INFO - Starting to Import Data
+2022-02-12 20:22:19,401 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:22:24,493 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:25:48,182 - routes - INFO - Post request fetch for year2004
+2022-02-12 20:27:21,934 - routes - INFO - [Process 5 : Exchange_Rate.html loaded sucessfully!]
+2022-02-12 20:28:39,679 - routes - INFO - [Process 6 : CPI.html page loaded sucessfully!]
+2022-02-12 20:31:43,169 - routes - INFO - ETL API Hit
+2022-02-12 20:31:43,171 - routes - INFO - Starting to Import Data
+2022-02-12 20:31:43,666 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:31:48,769 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:32:08,241 - routes - INFO - ETL API Hit
+2022-02-12 20:32:08,241 - routes - INFO - Starting to Import Data
+2022-02-12 20:32:08,771 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:32:14,745 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-12 20:32:41,176 - routes - INFO - ETL API Hit
+2022-02-12 20:32:41,178 - routes - INFO - Starting to Import Data
+2022-02-12 20:32:41,717 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-12 20:32:46,372 - routes - INFO - All the data are fetched from Database in .csv and saved as .xlsx !
+2022-02-16 15:16:42,758 - routes - INFO - ETL API Hit
+2022-02-16 15:16:42,809 - routes - INFO - Starting to Import Data
+2022-02-16 15:16:43,094 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-16 22:31:18,457 - routes - INFO - ETL API Hit
+2022-02-16 22:31:18,465 - routes - INFO - Starting to Import Data
+2022-02-16 22:31:18,598 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-16 22:37:11,130 - routes - INFO - ETL API Hit
+2022-02-16 22:37:11,157 - routes - INFO - Starting to Import Data
+2022-02-16 22:37:11,333 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-16 22:38:53,810 - routes - INFO - ETL API Hit
+2022-02-16 22:38:53,824 - routes - INFO - Starting to Import Data
+2022-02-16 22:38:53,947 - routes - INFO - All the data are fetched from Database and ready to be combined !
+2022-02-16 22:49:07,911 - routes - INFO - [Process 2 : Index page loaded sucessfully!]
