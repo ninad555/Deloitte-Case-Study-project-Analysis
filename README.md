@@ -23,7 +23,9 @@ project Members: [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](
 ## 👨‍🏫 Demo
 
 Insert gif or link to demo
+![Demo Background Sample Video](https://user-images.githubusercontent.com/76054740/154295725-c9774162-83d4-4518-8aaf-72b86ea01f04.mp4)
 
+![Demo Background Sample Video](https://user-images.githubusercontent.com/76054740/154296010-86257ff3-d2de-4496-9ce4-ad55a3b7cc59.gif)
 
 ## 💡 Lessons Learned
 
