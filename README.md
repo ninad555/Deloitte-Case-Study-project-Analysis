@@ -25,7 +25,7 @@ project Members: [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](
 Insert gif or link to demo
 
 
-## Lessons Learned
+## 💡 Lessons Learned
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
