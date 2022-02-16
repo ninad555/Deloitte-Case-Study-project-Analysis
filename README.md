@@ -40,6 +40,4 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 [Documentation](https://linktodocumentation)
 
 
-## Authors
 
-- [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](https://github.com/AbhishekMestry), [@Viresh Dhuri](https://github.com/Virey07), [@Omkar Sutar](https://github.com/omkarsutar9702)
