@@ -1,6 +1,6 @@
 
-# Deloitte Case Study project Analysis 
-## -ineuron internship project
+# 📔 Deloitte Case Study project Analysis 
+## Ineuron internship project
 project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar. 
 
 
@@ -20,7 +20,7 @@ project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.
 
     Data Understanding - Data cleaning - Data pre-processing and transforming - Data Analysis - Visualisation - Making it more Dynamic and User Interactive.
 
-## Demo
+## 👨‍🏫 Demo
 
 Insert gif or link to demo
 
@@ -30,19 +30,18 @@ Insert gif or link to demo
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
 
-## Optimizations
+## 🔧 Optimizations
 
 What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
 
 
-## Documentation
+## 📁 Documentation
 
 [Documentation](https://linktodocumentation)
 
 
 ## Authors
 
-- [@Ninad Kadam](https://github.com/ninad555)
-- [@Abhishek Mestry](https://github.com/AbhishekMestry)
+- [@Ninad Kadam](https://github.com/ninad555),[@Abhishek Mestry](https://github.com/AbhishekMestry)
 - [@Viresh Dhuri](https://github.com/Virey07)
 - [@Omkar Sutar](https://github.com/omkarsutar9702)
