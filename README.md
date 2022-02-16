@@ -1,6 +1,5 @@
 
-# Deloitte Case Study project Analysis
-
+#                                                     Deloitte Case Study project Analysis
 1. Problem Statement.
 - This project lies under the banking domain. A banking domain consists of all the components needed to run a financial service end-to-end. It covers the transaction and distribution process; the ways in which customers interact with the system, products, and services the organisation offers.
 - In this project the analysis of CPI , Exchange Rate and Export Merchandise data of Deloitte Company is needed. The analysis should be on a respective dashboard, which should be much user interactive so that users can manipulate the graphs and perform EDA on graphs for fetching some information from it. The respective graphs must have sliders with respect to countries and years for dynamic purposes. 
