@@ -1,9 +1,7 @@
 
-# <ins>Deloitte Case Study project Analysis 
+# <ins>Deloitte Case Study project Analysis  
 ## <ins>Ineuron internship project
 Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar. 
-
-
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
