@@ -50,7 +50,7 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 ## 👥Authors
 
-  [![Ninad Kadam](https://img.shields.io/badge/Ninad_Kadam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ninad-kadam-4439081b0/)
-
-  [![Abhishek Mestry](https://img.shields.io/badge/Abhishek_Mestry-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-mestry-833843175/)
-
+  [![](https://img.shields.io/badge/Ninad_Kadam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ninad-kadam-4439081b0/)
+  [![](https://img.shields.io/badge/Abhishek_Mestry-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-mestry-833843175/)
+  [![](https://img.shields.io/badge/Viresh_Dhuri-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viresh-dhuri-96b50a216/)
+  [![](https://img.shields.io/badge/Omkar_Sutar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omkar-sutar-739982199/)
