@@ -1,6 +1,6 @@
 
-# Deloitte Case Study project Analysis 
-## -ineuron internship project
+# <ins>Deloitte Case Study project Analysis 
+## <ins>Ineuron internship project
 Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar. 
 
 
@@ -54,3 +54,9 @@ What optimizations did you make in your code? E.g. refactors, performance improv
   [![](https://img.shields.io/badge/Abhishek_Mestry-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-mestry-833843175/)
   [![](https://img.shields.io/badge/Viresh_Dhuri-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viresh-dhuri-96b50a216/)
   [![](https://img.shields.io/badge/Omkar_Sutar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omkar-sutar-739982199/)
+
+  [![](https://img.shields.io/badge/Ninad_kadam-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ninad555)
+  [![](https://img.shields.io/badge/Abhishek_Mestry-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AbhishekMestry)
+  [![](https://img.shields.io/badge/Viresh_Dhuri-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Virey07)
+  [![](https://img.shields.io/badge/Omkar_Sutar-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omkarsutar9702)
+  
