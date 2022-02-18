@@ -7,6 +7,7 @@ Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
+  
 ## 1. Problem Statement.
 - This project lies under the banking domain. A banking domain consists of all the components needed to run a financial 
   service end-to-end. It covers the transaction and distribution process; the ways in which customers interact with the 
@@ -34,6 +35,24 @@ https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-
 ## 🔤 problem faced
   skdjf
   
+
+## 🏺 project architecture
+  
+  
+## 💻Technology stack
+  <div align = "center">
+  
+[![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/Python%20Code)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/Model)
+[![Plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/EDA)
+[![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/EDA)
+[![NumPy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/EDA)
+[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/blob/main/templates/index.html)
+[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/blob/main/static/css/style.css)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/7Vivek/User-Response-Prediction-System/blob/main/templates/index.html)
+[![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/blob/main/app.py)
+[![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://user-response-prediction.herokuapp.com/)
+ </div>
   
   
 ## 💡Lessons Learned
