@@ -24,7 +24,7 @@ Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.
 
 ## 👨‍🏫Demo
 
-<ins>Insert gif or link to demo
+<ins>Tuturial videos of our project
 
 https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-82e4-96e0501fb89b.mp4
 
@@ -32,14 +32,17 @@ https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-
 
   
   
-## 🔤 problem faced
+## 🔤 Problem faced
   skdjf
   
 
-## 🏺 project architecture
+## 🏺 Project architecture
+  ![image](https://user-images.githubusercontent.com/76054740/155142968-386faef5-2ce8-4c6c-802b-c8d0bf8ec732.png)
+
   
   
 ## 💻Technology stack
+  Analytical & Visualization tools and libraries such as Numpy, Pandas, Plotly and Excel. For interactive UI JavaScript and IDE’s such as Pycharm, VScode and Github are used to build the whole framework.
   <div align = "center">
   
 [![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/Python%20Code)
@@ -55,6 +58,7 @@ https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-
  </div>
   
   
+  
 ## 💡Lessons Learned
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
@@ -62,7 +66,15 @@ What did you learn while building this project? What challenges did you face and
 
 ## 🪛Optimizations
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+1)	<ins>Code Modularisation :
+  
+One of the most important concepts of programming is the ability to group some lines of code into a unit that can be included in our program. The original wording for this was a sub-program. Other names include: macro, sub-routine, procedure, module and function. We are going to use the term function for that is what they are called in most of the predominant programming languages of today. Functions are important because they allow us to take large complicated programs and to divide them into smaller manageable pieces. For performing all above steps and getting at this point, the code is was performed step by step through trial and error method for a number of times. At last when the code is finalized it is modularized in such a way that it is understandable for the users and IT technicians too. To organize the code in modularize way we organized each piece of code based on what it does, then one can easily find and reference the code based on his/her organization scheme.
+
+2)	<ins>Making Project Dynamic (Introducing Database):
+  
+A database management system (DBMS) is a software tool that enables users to manage a database easily. It allows users to access and interact with the underlying data in the database. These actions can range from simply querying data to defining database schemas that fundamentally affect the database structure. Furthermore, DBMS allow users to interact with a database securely and concurrently without interfering with each user and while maintaining data integrity.
+ Firstly, we were provided only the three excel workbooks of CPI (Consumer Price Index), Exports Merchandise, Exchange Rate. Those three excel workbooks were having two-three sheets naming yearly, monthly, quarterly. We created a database on Mongo DB and pushed these provided excel sheets on it (total 6 sheets in .csv format). There were total six sheets of three datasets each of yearly and monthly. Then the code is designed in such a way that when we access the respective data for analysis and visualisation on our dashboard, it pulls the necessary data from the database, convert it into excel format and further fed to the data pre-processing and analysis.
+
 
 
 ## 💼Documentation
