@@ -13,7 +13,7 @@ from Dashboard import Chart
 import json
 import plotly
 from util.root import ProjectRoot
-from load_data.database_import import MongoDb
+#from load_data.database_import import MongoDb
 
 from util.app_logger import  AppLogger
 
