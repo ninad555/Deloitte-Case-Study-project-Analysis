@@ -87,7 +87,7 @@ def Exp_mrch():
 
     # data = "Data\Raw Data\Exports Merchandise.xlsx"
     year = 2017
-    data = "Exports Merchandise.xlsx"
+    data = "Data\RawDataset\Exports Merchandise.xlsx"
     try:
 
         from_charts = Chart.get_chart(data,year)
