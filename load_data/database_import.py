@@ -5,7 +5,7 @@ import shutil
 import pymongo
 import pandas as pd
 import re
-
+import certifi
 from util.app_logger import AppLogger
 from util.root import ProjectRoot
 
@@ -47,8 +47,9 @@ class MongoDb:
         self.project_root = ProjectRoot().get_project_root()
         app_log = AppLogger("Database Import", os.path.join(self.project_root, 'Logs/ETL.log'))
         self.logger = app_log.set_handlers()
-        # self.server_url = "mongodb+srv://m001-student:m001-mongodb-basics@esa.gnknw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-        self.server_url = "mongodb://localhost:27017/"
+        #self.server_url = "mongodb+srv://AbhishekMestry:unlock24708651@cluster1.wyzwp.mongodb.net/Database_BI?retryWrites=true&w=majority"
+        self.server_url = "mongodb+srv://ninad555:$ninad@bidata.cxexe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        # self.server_url = "mongodb://localhost:27017/"
         self.db = 'Database_BI'
         self.collections = ['Export Merchandise Monthly', 'Export Merchandise Yearly', 'Exchange Rate Monthly', 'CPI Yearly', 'Exchange Rate Yearly', 'CPI Monthly']
         self.csv_path = "Data/RawDataset"
@@ -69,7 +70,7 @@ class MongoDb:
         """
 
         try:
-            client = pymongo.MongoClient(self.server_url)
+            client = pymongo.MongoClient(self.server_url, tlsCAFile=certifi.where())
             self.logger.info("Sever Connected !")
             try:
                 db = client[self.db]
@@ -153,6 +154,7 @@ class MongoDb:
 
         """
         comp_list = [name for name in file_names if re.search(sub_string, name)]
+        print(path)
         df_1 = pd.read_csv(path + "/" + comp_list[1])
         df_2 = pd.read_csv(path + "/" + comp_list[0])
         op_path = path +"/" + sub_string + '.xlsx'
