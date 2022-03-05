@@ -45,11 +45,10 @@ https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-
   
 # 💻 Technology stack
   Analytical & Visualization tools and libraries such as Numpy, Pandas, Plotly and Excel. For interactive UI JavaScript and IDE’s such as Pycharm, VScode and Github are used to build the whole framework.
-  <div align = "center">
- 
+ <div align = "center">
+  
 [![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/Python%20Code)
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style)]
-[!the-badge&logo=Jupyter)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/Model)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/Model)
 [![Plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/EDA)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/EDA)
 [![NumPy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/tree/main/EDA)
@@ -58,9 +57,9 @@ https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-
 [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/7Vivek/User-Response-Prediction-System/blob/main/templates/index.html)
 [![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)](https://github.com/7Vivek/User-Response-Prediction-System/blob/main/app.py)
 [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://user-response-prediction.herokuapp.com/)
- 
-</div>
-
+ </div>
+  
+  
 # 🔔 Optimizations
 
 ### 1)	<ins>Code Modularisation :
