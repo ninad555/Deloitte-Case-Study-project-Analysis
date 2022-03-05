@@ -26,6 +26,8 @@ Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.
 
 <ins>Tuturial videos of our project
 
+Uploading scrapper · Streamlit - Google Chrome 2021-06-04 16-00-01.mp4
+
 https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-82e4-96e0501fb89b.mp4
     
 ## 🔤 Problem faced
