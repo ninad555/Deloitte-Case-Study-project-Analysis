@@ -20,12 +20,12 @@
   way. So that users can fetch some information from it and can be used for further analysis and other work. 
 
 
-#📽️ Demo
+# 📽️ Demo
   
-<ins>Tuturial videos of our project
+<ins>Short videos of our project
 
-https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-82e4-96e0501fb89b.mp4
- 
+https://user-images.githubusercontent.com/65813824/156899096-3a211789-2929-40f6-80b6-18a3cd2f4757.mp4
+
   
 # 🤔 Problem Faced & Solutions 💡 
 
@@ -84,11 +84,13 @@ it pulls the necessary data from the database, convert it into excel format and 
 
 
 
-## 💼Documentation
+# 💼Documentation
 
-[LowLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191344/LLD.2022.docx)
-[HighLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191364/HLD.2022.1.docx)
-[ProjectDetailedReport.pptx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191367/PDR_BI.pptx)
+- [LowLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191344/LowLevelDocumentation.docx)
+
+- [HighLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191364/HighLevelDocumentation.docx)
+
+- [ProjectDetailedReport.pptx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191367/ProjectDetailedReport.pptx)
 
 ## 👥Authors
 
