@@ -21,15 +21,13 @@ project_root = ProjectRoot().get_project_root()
 app_log = AppLogger("routes", os.path.join(project_root, 'Logs/routes.log'))
 logger = app_log.set_handlers()
 
-
 logger.info('ETL API Hit')
 etl = MongoDb()
 logger.info('Starting to Import Data')
 etl.import_to_csv()
 logger.info('All the data are fetched from Database and ready to be combined !')
 
-
-path = r"C:\Users\kadam\Downloads\flask_app(12-02-2022)\Deloitte-Case-Study-project-Analysis\Data\RawDataset"
+path = r"{}\Data\RawDataset".format(project_root)
 extension = 'csv'
 all_filenames = [i for i in os.listdir(path)]
 
