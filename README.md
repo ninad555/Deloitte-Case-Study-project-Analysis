@@ -86,10 +86,9 @@ it pulls the necessary data from the database, convert it into excel format and 
 
 ## 💼Documentation
 
-[LLD 2022.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191344/LLD.2022.docx)
-  
-[Documentation](https://linktodocumentation)
-
+[LowLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191344/LLD.2022.docx)
+[HighLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191364/HLD.2022.1.docx)
+[ProjectDetailedReport.pptx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191367/PDR_BI.pptx)
 
 ## 👥Authors
 
