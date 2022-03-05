@@ -26,11 +26,8 @@ Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.
 
 <ins>Tuturial videos of our project
 
-https://drive.google.com/file/d/1Xm3doXABzjnH9_uOiXoahERV5dZHKr0u/view?usp=sharing.mp4
-
-
-  
-  
+https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-82e4-96e0501fb89b.mp4
+    
 ## 🔤 Problem faced
   skdjf
   
