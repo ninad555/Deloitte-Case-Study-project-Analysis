@@ -29,13 +29,13 @@ https://user-images.githubusercontent.com/65813824/156899096-3a211789-2929-40f6-
   
 # 🤔 Problem Faced & Solutions 💡 
 
- As each Data set had unique characteristics while pre processing we handled it by Modularising the code to make it effective 
+✅ As each Data set had unique characteristics while pre processing we handled it by Modularising the code to make it effective 
 
- Making Plotly graph interactive responsive  and integrating it with web app for which we used Javascript  packages.
+✅ Making Plotly graph interactive responsive  and integrating it with web app for which we used Javascript  packages.
 
- Integration of database to make the app dynamics. Implemented MongoDB atlas so that the data can be easily accessible.
+✅ Integration of database to make the app dynamics. Implemented MongoDB atlas so that the data can be easily accessible.
 
- Deploying and scaling the  application on cloud  executed on heroku.  
+✅ Deploying and scaling the  application on cloud  executed on heroku.  
 
 # 🔧 Project architecture
   ![image](https://user-images.githubusercontent.com/76054740/155142968-386faef5-2ce8-4c6c-802b-c8d0bf8ec732.png)
