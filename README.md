@@ -91,6 +91,33 @@ it pulls the necessary data from the database, convert it into excel format and 
 - [HighLevelDocumentation.docx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191364/HighLevelDocumentation.docx)
 
 - [ProjectDetailedReport.pptx](https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/files/8191367/ProjectDetailedReport.pptx)
+  
+  
+# 🧑‍🔧 Code Set up
+
+  After downloading the code file and opening it any IDE you can do the steps as mentioned below.
+  
+#### To Create and Conda environment.
+### Create conda Env 
+```bash
+conda create -n BI 
+```
+
+### Activate conda Env
+```bash
+conda activate BI
+```
+
+### Installing requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
+### To run the app
+###### Run the app.py file
+```bash
+python app.py
+```
 
 ## 👥Authors
 
