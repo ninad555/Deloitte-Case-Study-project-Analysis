@@ -95,6 +95,9 @@ it pulls the necessary data from the database, convert it into excel format and 
   
 # 🧑‍🔧 Code Set up
 
+  Here we have two branches for the project. 
+  1) main branch - without database
+  2) master branch - with database
   After downloading the code file and opening it any IDE you can do the steps as mentioned below.
   
 #### To Create and Conda environment.
