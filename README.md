@@ -25,7 +25,7 @@ Project Members: Ninad Kadam, Abhishek Mestry, Viresh Dhuri, Omkar Sutar.
 
 <ins>Tuturial videos of our project
 
-https://user-images.githubusercontent.com/76054740/154712115-ba37290b-1912-4edc-82e4-96e0501fb89b.mp4
+https://user-images.githubusercontent.com/65813824/156899096-3a211789-2929-40f6-80b6-18a3cd2f4757.mp4
 
 
 
@@ -79,6 +79,36 @@ A database management system (DBMS) is a software tool that enables users to man
 ## 💼Documentation
 
 [Documentation](https://linktodocumentation)
+  
+# 🧑‍🔧 Code Set up
+
+  Here we have two branches for the project. 
+  1) main branch - without database
+  2) master branch - with database
+  
+  After downloading the code file and opening it any IDE you can do the steps as mentioned below.
+  
+#### To Create and Conda environment.
+### Create conda Env 
+```bash
+conda create -n BI 
+```
+
+### Activate conda Env
+```bash
+conda activate BI
+```
+
+### Installing requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
+### To run the app
+###### Run the app.py file
+```bash
+python app.py
+```
 
 
 ## 👥Authors
