@@ -138,9 +138,9 @@ def Exp_mrch():
             # fig3.update_layout(title_x=0.5, plot_bgcolor= "#c1efde", paper_bgcolor= "#c1efde")
             # fig2.update_layout(title_x=0.5, plot_bgcolor='#ffffff', paper_bgcolor='#ffffff')
             #fig5.update_layout(height=500, width=900)
-            graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+            graphJSON_P = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
             logger.info("Post request executed & Export Merchandise.html loaded Successfully.")
-            return render_template("Exp_mrch.html", title="Export merchandise", graph1JSON=graph1JSON, graph2JSON=graph2JSON,
+            return render_template("Exp_mrch.html", title="Export merchandise", graph1JSON=graphJSON_P, graph2JSON=graph2JSON,
                                    graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
                                    graph6JSON=graph6JSON)
 
