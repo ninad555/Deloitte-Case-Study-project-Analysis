@@ -255,8 +255,8 @@ def CPI():
     """
 
     #data = "{}\Data\RawDataset\CPI Data.xlsx".format(project_root)
-    #data = "Data\RawDataset\CPI Data.xlsx"
-    data = "https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/blob/f561f93801a382cf99f6c3c646ecac52be3d9adf/Data/RawDataset/CPI%20Data.xlsx"
+    data = "Data/RawDataset/CPI Data.xlsx"
+    #data = "https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/blob/f561f93801a382cf99f6c3c646ecac52be3d9adf/Data/RawDataset/CPI%20Data.xlsx"
     year = 2017
     try:
 
