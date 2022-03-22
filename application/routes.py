@@ -114,12 +114,12 @@ def Exp_mrch():
         logger.info("[Error : Error in fetching Export_Merchandise charts!]")
 
     try:
-
+        
         if request.method == "POST":
-            post_year = request.form["multiple"]
+            year = request.form["multiple"]
             logger.info("Post request fetch for year{}".format(year))
             #fig5 = get_montly_chart(montly_chart(data, year))
-            monthly_from_chart = Chart.get_chart(data, post_year)
+            monthly_from_chart = Chart.get_chart(data, year)
             fig = monthly_from_chart.get_monthly_post_chart()
             fig.update_layout(
                 title='Monthly Analysis of year'+" "+ year,
@@ -134,9 +134,13 @@ def Exp_mrch():
                 font_color='black',
                 yaxis_title="CAGR"
             )
-            graphJSON_P = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+
+            # fig3.update_layout(title_x=0.5, plot_bgcolor= "#c1efde", paper_bgcolor= "#c1efde")
+            # fig2.update_layout(title_x=0.5, plot_bgcolor='#ffffff', paper_bgcolor='#ffffff')
+            #fig5.update_layout(height=500, width=900)
+            graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
             logger.info("Post request executed & Export Merchandise.html loaded Successfully.")
-            return render_template("Exp_mrch.html", title="Export merchandise", graph1JSON=graphJSON_P, graph2JSON=graph2JSON,
+            return render_template("Exp_mrch.html", title="Export merchandise", graph1JSON=graph1JSON, graph2JSON=graph2JSON,
                                    graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
                                    graph6JSON=graph6JSON)
 
@@ -149,8 +153,7 @@ def Exp_mrch():
                 logger.info("[Error : Error in Export_Merchandise route!]")
     except:
         logger.info("[Error : Error in Post request in Export_Merchandise route.]")
-
-
+        
 @app.route("/Exchange_rate", methods=["GET", "POST"])
 def Exchange_rate():
     """
