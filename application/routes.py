@@ -116,10 +116,10 @@ def Exp_mrch():
     try:
 
         if request.method == "POST":
-            year = request.form["multiple"]
+            post_year = request.form["multiple"]
             logger.info("Post request fetch for year{}".format(year))
             #fig5 = get_montly_chart(montly_chart(data, year))
-            monthly_from_chart = Chart.get_chart(data, year)
+            monthly_from_chart = Chart.get_chart(data, post_year)
             fig = monthly_from_chart.get_monthly_post_chart()
             fig.update_layout(
                 title='Monthly Analysis of year'+" "+ year,
