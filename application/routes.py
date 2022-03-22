@@ -85,7 +85,7 @@ def Exp_mrch():
 
     """
 
-    data = "Data\RawDataset\Exports Merchandise.xlsx"
+    data = "Data/RawDataset/Exports Merchandise.xlsx"
     year = 2017
     #data = r"{}\Data\RawDataset\Exports Merchandise.xlsx".format(project_root)
 
@@ -169,7 +169,7 @@ def Exchange_rate():
 
     """
     #data = "{}\Data\RawDataset\Exchange rate.xlsx".format(project_root)
-    data = "Data\RawDataset\Exchange rate.xlsx"
+    data = "Data/RawDataset/Exchange rate.xlsx"
     year = 2017
 
     try:
