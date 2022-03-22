@@ -134,10 +134,6 @@ def Exp_mrch():
                 font_color='black',
                 yaxis_title="CAGR"
             )
-
-            # fig3.update_layout(title_x=0.5, plot_bgcolor= "#c1efde", paper_bgcolor= "#c1efde")
-            # fig2.update_layout(title_x=0.5, plot_bgcolor='#ffffff', paper_bgcolor='#ffffff')
-            #fig5.update_layout(height=500, width=900)
             graphJSON_P = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
             logger.info("Post request executed & Export Merchandise.html loaded Successfully.")
             return render_template("Exp_mrch.html", title="Export merchandise", graph1JSON=graphJSON_P, graph2JSON=graph2JSON,
