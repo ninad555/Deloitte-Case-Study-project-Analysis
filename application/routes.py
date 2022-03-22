@@ -154,6 +154,7 @@ def Exp_mrch():
     except:
         logger.info("[Error : Error in Post request in Export_Merchandise route.]")
         
+        
 @app.route("/Exchange_rate", methods=["GET", "POST"])
 def Exchange_rate():
     """
