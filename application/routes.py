@@ -153,8 +153,9 @@ def Exp_mrch():
                 logger.info("[Error : Error in Export_Merchandise route!]")
     except:
         logger.info("[Error : Error in Post request in Export_Merchandise route.]")
+
         
-        
+
 @app.route("/Exchange_rate", methods=["GET", "POST"])
 def Exchange_rate():
     """
@@ -168,8 +169,7 @@ def Exchange_rate():
        Revision : None
 
     """
-    #data = "{}\Data\RawDataset\Exchange rate.xlsx".format(project_root)
-    data = "Data/RawDataset/Exchange rate.xlsx"
+    data = "Data\RawDataset\Exchange Rate.xlsx"
     year = 2017
 
     try:
@@ -254,9 +254,7 @@ def CPI():
 
     """
 
-    #data = "{}\Data\RawDataset\CPI Data.xlsx".format(project_root)
-    data = "Data/RawDataset/CPI Data.xlsx"
-    #data = "https://github.com/ninad555/Deloitte-Case-Study-project-Analysis/blob/f561f93801a382cf99f6c3c646ecac52be3d9adf/Data/RawDataset/CPI%20Data.xlsx"
+    data = "Data\RawDataset\CPI.xlsx"
     year = 2017
     try:
 
@@ -324,3 +322,27 @@ def CPI():
                   logger.info("[Error E6 : There is an error in CPI.html !]")
     except:
         logger.info("[Error : Error in Post request in CPI   route.]")
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
