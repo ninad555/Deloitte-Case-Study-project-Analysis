@@ -85,7 +85,7 @@ def Exp_mrch():
 
     # data = "Data\Raw Data\Exports Merchandise.xlsx"
     year = 2017
-    data = "Data\RawDataset\Export Merchandise.xlsx"
+    data = "Data/RawDataset/Exports Merchandise.xlsx"
 
     try:
 
@@ -166,7 +166,7 @@ def Exchange_rate():
        Revision : None
 
     """
-    data = "Data\RawDataset\Exchange Rate.xlsx"
+    data = "Data/RawDataset/Exchange rate.xlsx"
     year = 2017
 
     try:
@@ -250,8 +250,8 @@ def CPI():
        Revision : None
 
     """
-
-    data = "Data\RawDataset\CPI.xlsx"
+    
+    data = "Data/RawDataset/CPI Data.xlsx"
     year = 2017
     try:
 
