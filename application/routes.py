@@ -169,7 +169,7 @@ def Exchange_rate():
        Revision : None
 
     """
-    data = "Data\RawDataset\Exchange Rate.xlsx"
+    data = "Data/RawDataset/Exchange rate.xlsx"
     year = 2017
 
     try:
@@ -253,8 +253,7 @@ def CPI():
        Revision : None
 
     """
-
-    data = "Data\RawDataset\CPI.xlsx"
+    data = "Data/RawDataset/CPI Data.xlsx"
     year = 2017
     try:
 
@@ -323,26 +322,3 @@ def CPI():
     except:
         logger.info("[Error : Error in Post request in CPI   route.]")
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    
