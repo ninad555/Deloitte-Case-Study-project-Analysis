@@ -146,7 +146,7 @@ class data_preprocessing:
             set_data.replace(to_replace=0, method="ffill", inplace=True)
             logger.info("[Process 4 : set_datetime_index has runned succesfully !]")
             return set_data
-        except Error as e:
+        except:
             logger.info("[Error E4 : There is an error in set_datetime_index !]", e)
 
     def Yoy_preprocessing(self):
@@ -225,7 +225,7 @@ class data_preprocessing:
             cagr_df.fillna(0, inplace=True)
             logger.info("[Process 6 : CAGR_preprocessing has runned succesfully !]")
             return cagr_df
-        except Error as e:
+        except:
             logger.info("[Error E6 : There is an error in CAGR_preprocessing !]", e)
 
     def monthly_preprocessing(self):
@@ -317,5 +317,3 @@ class data_preprocessing:
 
         except:
             logger.info("[Process 7 : monthly_preprocessing has runned succesfully !]")
-
-
