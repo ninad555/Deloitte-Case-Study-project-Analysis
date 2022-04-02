@@ -202,49 +202,7 @@ def Exchange_rate():
                                    graph6JSON=graph6JSON)
     except:
         logger.info("[Error : Error in fetching Exchange Rate charts!]")
-    try:
-        if request.method == "POST":
-
-                year = request.form["multiple"]
-                logger.info("Post request fetch for year{}".format(year))
-                # fig5 = get_montly_chart(montly_chart(data, year))
-                from_charts = Chart.get_chart(data, year)
-                fig = from_charts.get_monthly_post_chart()
-                fig.update_layout(
-                    title='Monthly Analysis of year' + " " + year,
-                    title_x=0.45,
-                    title_y=0.95,
-                    title_font_family="Balto",
-                    title_font_size=18,
-                    xaxis_title="years",
-                    paper_bgcolor='white',
-                    # plot_bgcolor='black',
-
-                    font_color='black',
-                    yaxis_title="CAGR"
-                )
-
-                # fig3.update_layout(title_x=0.5, plot_bgcolor= "#c1efde", paper_bgcolor= "#c1efde")
-                # fig2.update_layout(title_x=0.5, plot_bgcolor='#ffffff', paper_bgcolor='#ffffff')
-                # fig5.update_layout(height=500, width=900)
-                graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-                logger.info("[Process 5 : Exchange_Rate.html loaded sucessfully!]")
-                return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
-                                       graph2JSON=graph2JSON, graph3JSON=graph3JSON, graph4JSON=graph4JSON,
-                                       graph5JSON=graph5JSON, graph6JSON=graph6JSON)
-        else:
-            try:
-                logger.info("[Process 5 : Exchange_Rate.html loaded sucessfully!]")
-                return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
-                                   graph2JSON=graph2JSON,
-                                   graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
-                                   graph6JSON=graph6JSON)
-            except:
-                 logger.info("[Error E5 : There is an error in Exchange_Rate.html !]")
-
-    except:
-        logger.info("[Error : Error in Post request in Exchange rate route.]")
-
+    
 @app.route("/CPI", methods=["GET", "POST"])
 def CPI():
     """
