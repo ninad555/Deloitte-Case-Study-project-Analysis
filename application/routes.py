@@ -195,6 +195,11 @@ def Exchange_rate():
 
         fig4 = from_charts.get_cagr_grouped_chart()
         graph6JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
+        
+        return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
+                                   graph2JSON=graph2JSON,
+                                   graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
+                                   graph6JSON=graph6JSON)
     except:
         logger.info("[Error : Error in fetching Exchange Rate charts!]")
     try:
