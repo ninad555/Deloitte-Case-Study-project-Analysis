@@ -13,7 +13,7 @@ from Dashboard import Chart
 import json
 import plotly
 from util.root import ProjectRoot
-#from load_data.database_import import MongoDb
+from load_data.database_import import MongoDb
 
 from util.app_logger import  AppLogger
 
@@ -21,22 +21,20 @@ project_root = ProjectRoot().get_project_root()
 app_log = AppLogger("routes", os.path.join(project_root, 'Logs/routes.log'))
 logger = app_log.set_handlers()
 
+logger.info('ETL API Hit')
+etl = MongoDb()
+logger.info('Starting to Import Data')
+etl.import_to_csv()
+logger.info('All the data are fetched from Database and ready to be combined !')
 
-# logger.info('ETL API Hit')
-# etl = MongoDb()
-# logger.info('Starting to Import Data')
-# etl.import_to_csv()
-# logger.info('All the data are fetched from Database and ready to be combined !')
-#
-#
-# path = r"G:\Delloite Case Study Analysis\Deloitte-Case-Study-project-Analysis-master\Deloitte-Case-Study-project-Analysis-master\Data\RawDataset"
-# extension = 'csv'
-# all_filenames = [i for i in os.listdir(path)]
-#
-# CPI = etl.get_excel(path, "CPI", all_filenames)
-# Exg = etl.get_excel(path, "Exchange Rate", all_filenames)
-# Exp = etl.get_excel(path, "Export Merchandise", all_filenames)
-# logger.info('All the data are fetched from Database in .csv and saved as .xlsx !')
+path = r"{}\Data\RawDataset".format(project_root)
+extension = 'csv'
+all_filenames = [i for i in os.listdir(path)]
+
+CPI = etl.get_excel(path, "CPI", all_filenames)
+Exg = etl.get_excel(path, "Exchange Rate", all_filenames)
+Exp = etl.get_excel(path, "Export Merchandise", all_filenames)
+logger.info('All the data are fetched from Database in .csv and saved as .xlsx !')
 
 @app.route('/', methods=['GET', "POST"])
 def index():
@@ -85,9 +83,9 @@ def Exp_mrch():
 
     """
 
-    data = "Data/RawDataset/Exports Merchandise.xlsx"
+    # data = "Data\Raw Data\Exports Merchandise.xlsx"
     year = 2017
-    #data = r"{}\Data\RawDataset\Exports Merchandise.xlsx".format(project_root)
+    data = "Data\RawDataset\Export Merchandise.xlsx"
 
     try:
 
@@ -114,7 +112,7 @@ def Exp_mrch():
         logger.info("[Error : Error in fetching Export_Merchandise charts!]")
 
     try:
-        
+
         if request.method == "POST":
             year = request.form["multiple"]
             logger.info("Post request fetch for year{}".format(year))
@@ -154,7 +152,6 @@ def Exp_mrch():
     except:
         logger.info("[Error : Error in Post request in Export_Merchandise route.]")
 
-        
 
 @app.route("/Exchange_rate", methods=["GET", "POST"])
 def Exchange_rate():
@@ -169,7 +166,7 @@ def Exchange_rate():
        Revision : None
 
     """
-    data = "Data/RawDataset/Exchange rate.xlsx"
+    data = "Data\RawDataset\Exchange Rate.xlsx"
     year = 2017
 
     try:
@@ -195,11 +192,6 @@ def Exchange_rate():
 
         fig4 = from_charts.get_cagr_grouped_chart()
         graph6JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
-        
-        return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
-                                   graph2JSON=graph2JSON,
-                                   graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
-                                   graph6JSON=graph6JSON)
     except:
         logger.info("[Error : Error in fetching Exchange Rate charts!]")
     try:
@@ -258,7 +250,8 @@ def CPI():
        Revision : None
 
     """
-    data = "Data/RawDataset/CPI Data.xlsx"
+
+    data = "Data\RawDataset\CPI.xlsx"
     year = 2017
     try:
 
@@ -326,4 +319,3 @@ def CPI():
                   logger.info("[Error E6 : There is an error in CPI.html !]")
     except:
         logger.info("[Error : Error in Post request in CPI   route.]")
-        
