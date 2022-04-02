@@ -21,20 +21,20 @@ project_root = ProjectRoot().get_project_root()
 app_log = AppLogger("routes", os.path.join(project_root, 'Logs/routes.log'))
 logger = app_log.set_handlers()
 
-logger.info('ETL API Hit')
-etl = MongoDb()
-logger.info('Starting to Import Data')
-etl.import_to_csv()
-logger.info('All the data are fetched from Database and ready to be combined !')
+# logger.info('ETL API Hit')
+# etl = MongoDb()
+# logger.info('Starting to Import Data')
+# etl.import_to_csv()
+# logger.info('All the data are fetched from Database and ready to be combined !')
 
-path = r"{}\Data\RawDataset".format(project_root)
-extension = 'csv'
-all_filenames = [i for i in os.listdir(path)]
+# path = r"{}\Data\RawDataset".format(project_root)
+# extension = 'csv'
+# all_filenames = [i for i in os.listdir(path)]
 
-CPI = etl.get_excel(path, "CPI", all_filenames)
-Exg = etl.get_excel(path, "Exchange Rate", all_filenames)
-Exp = etl.get_excel(path, "Export Merchandise", all_filenames)
-logger.info('All the data are fetched from Database in .csv and saved as .xlsx !')
+# CPI = etl.get_excel(path, "CPI", all_filenames)
+# Exg = etl.get_excel(path, "Exchange Rate", all_filenames)
+# Exp = etl.get_excel(path, "Export Merchandise", all_filenames)
+# logger.info('All the data are fetched from Database in .csv and saved as .xlsx !')
 
 @app.route('/', methods=['GET', "POST"])
 def index():
