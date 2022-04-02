@@ -172,36 +172,32 @@ def Exchange_rate():
     data = "Data/RawDataset/Exchange rate.xlsx"
     year = 2017
 
-    try:
+    from_charts = Chart.get_chart(data, year)
 
-        from_charts = Chart.get_chart(data, year)
+    fig = from_charts.get_monthly_post_chart()
+    #fig = get_montly_chart(montly_chart(data, 2013))
+    # fig = from_charts.get_monthly_chart()
+    graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
-        fig = from_charts.get_monthly_post_chart()
-        #fig = get_montly_chart(montly_chart(data, 2013))
-        # fig = from_charts.get_monthly_chart()
-        graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    fig1 = from_charts.get_yoy_dropdown_chart()
+    graph2JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
 
-        fig1 = from_charts.get_yoy_dropdown_chart()
-        graph2JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
+    fig1 = from_charts.get_yoy_multipleselect_chart()
+    graph3JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
 
-        fig1 = from_charts.get_yoy_multipleselect_chart()
-        graph3JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
+    fig2 = from_charts.get_cagr_dropdown_chart()
+    graph4JSON = json.dumps(fig2, cls=plotly.utils.PlotlyJSONEncoder)
 
-        fig2 = from_charts.get_cagr_dropdown_chart()
-        graph4JSON = json.dumps(fig2, cls=plotly.utils.PlotlyJSONEncoder)
+    fig3 = from_charts.get_cagr_years_chart()
+    graph5JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
 
-        fig3 = from_charts.get_cagr_years_chart()
-        graph5JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
-
-        fig4 = from_charts.get_cagr_grouped_chart()
-        graph6JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
-        
-        return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
-                                   graph2JSON=graph2JSON,
-                                   graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
-                                   graph6JSON=graph6JSON)
-    except:
-        logger.info("[Error : Error in fetching Exchange Rate charts!]")
+    fig4 = from_charts.get_cagr_grouped_chart()
+    graph6JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
+ 
+    return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
+                               graph2JSON=graph2JSON,
+                               graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
+                               graph6JSON=graph6JSON)
     
 @app.route("/CPI", methods=["GET", "POST"])
 def CPI():
