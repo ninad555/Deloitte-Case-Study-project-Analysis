@@ -226,7 +226,7 @@ class data_preprocessing:
             logger.info("[Process 6 : CAGR_preprocessing has runned succesfully !]")
             return cagr_df
         except:
-            logger.info("[Error E6 : There is an error in CAGR_preprocessing !]", e)
+            logger.info("[Error E6 : There is an error in CAGR_preprocessing !]")
 
     def monthly_preprocessing(self):
         """
