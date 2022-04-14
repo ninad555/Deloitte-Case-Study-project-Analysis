@@ -169,36 +169,78 @@ def Exchange_rate():
        Revision : None
 
     """
+    
+    
     data = "Data/RawDataset/Exchange rate.xlsx"
     year = 2017
-
-    from_charts = Chart.get_chart(data, year)
-
-    fig = from_charts.get_monthly_post_chart()
-    #fig = get_montly_chart(montly_chart(data, 2013))
-    # fig = from_charts.get_monthly_chart()
-    graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-
-    fig1 = from_charts.get_yoy_dropdown_chart()
-    graph2JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
-
-    fig1 = from_charts.get_yoy_multipleselect_chart()
-    graph3JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
-
-    fig2 = from_charts.get_cagr_dropdown_chart()
-    graph4JSON = json.dumps(fig2, cls=plotly.utils.PlotlyJSONEncoder)
-
-    fig3 = from_charts.get_cagr_years_chart()
-    graph5JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
-
-    fig4 = from_charts.get_cagr_grouped_chart()
-    graph6JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
- 
-    return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON,
-                               graph2JSON=graph2JSON,
-                               graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
-                               graph6JSON=graph6JSON)
     
+    #data = r"{}\Data\RawDataset\Exports Merchandise.xlsx".format(project_root)
+
+    try:
+
+        from_charts = Chart.get_chart(data,year)
+
+        fig = from_charts.get_monthly_post_chart()
+        graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+
+        fig1 = from_charts.get_yoy_dropdown_chart()
+        graph2JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
+
+        fig1 = from_charts.get_yoy_multipleselect_chart()
+        graph3JSON = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
+
+        fig2 = from_charts.get_cagr_dropdown_chart()
+        graph4JSON = json.dumps(fig2, cls=plotly.utils.PlotlyJSONEncoder)
+
+        fig3 = from_charts.get_cagr_years_chart()
+        graph5JSON = json.dumps(fig3, cls=plotly.utils.PlotlyJSONEncoder)
+
+        fig4 = from_charts.get_cagr_grouped_chart()
+        graph6JSON = json.dumps(fig4, cls=plotly.utils.PlotlyJSONEncoder)
+    except:
+        logger.info("[Error : Error in fetching Export_Merchandise charts!]")
+
+    try:
+        
+        if request.method == "POST":
+            year = request.form["multiple"]
+            logger.info("Post request fetch for year{}".format(year))
+            #fig5 = get_montly_chart(montly_chart(data, year))
+            monthly_from_chart = Chart.get_chart(data, year)
+            fig = monthly_from_chart.get_monthly_post_chart()
+            fig.update_layout(
+                title='Monthly Analysis of year'+" "+ year,
+                title_x=0.45,
+                title_y=0.95,
+                title_font_family="Balto",
+                title_font_size=18,
+                xaxis_title="years",
+                paper_bgcolor='white',
+                # plot_bgcolor='black',
+
+                font_color='black',
+                yaxis_title="CAGR"
+            )
+
+            # fig3.update_layout(title_x=0.5, plot_bgcolor= "#c1efde", paper_bgcolor= "#c1efde")
+            # fig2.update_layout(title_x=0.5, plot_bgcolor='#ffffff', paper_bgcolor='#ffffff')
+            #fig5.update_layout(height=500, width=900)
+            graph1JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+            logger.info("Post request executed & Export Merchandise.html loaded Successfully.")
+            return render_template("Exchange_rate.html", title="Exchange Rate", graph1JSON=graph1JSON, graph2JSON=graph2JSON,
+                                   graph3JSON=graph3JSON, graph4JSON=graph4JSON, graph5JSON=graph5JSON,
+                                   graph6JSON=graph6JSON)
+
+        else:
+            try:
+                return render_template("Exchange_rate.html" , title="Exchange Rate" , graph1JSON = graph1JSON , graph2JSON = graph2JSON,
+                                   graph3JSON = graph3JSON, graph4JSON = graph4JSON , graph5JSON = graph5JSON,
+                                   graph6JSON = graph6JSON)
+            except:
+                logger.info("[Error : Error in Exchange Rate route!]")
+    except:
+        logger.info("[Error : Error in Post request in Exchange Rate route.]")
+   
 @app.route("/CPI", methods=["GET", "POST"])
 def CPI():
     """
